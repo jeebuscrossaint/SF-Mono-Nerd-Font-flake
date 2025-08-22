@@ -32,7 +32,7 @@
             meta = with pkgs.lib; {
               description = "Apple's SF Mono font patched with Nerd Fonts";
               homepage = "https://github.com/ryanoasis/nerd-fonts";
-              license = licenses.unfree; # Apple's SF Mono has proprietary license
+              # license = licenses.unfree; # Apple's SF Mono has proprietary license
               platforms = platforms.all;
               maintainers = [ ];
             };
